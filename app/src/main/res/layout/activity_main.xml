@@ -12,14 +12,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/editTextQRData"
-        android:hint="Valamilyen érték"
+        android:hint="@string/data"
         android:textSize="25sp"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/buttonGenerate"
-        android:text="Generálás"/>
+        android:text="@string/generate"/>
 
     <ImageView
         android:layout_width="250dp"
@@ -30,7 +30,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/buttonScan"
-        android:text="Szkennelés"/>
+        android:text="@string/scan"/>
 
     <TextView
         android:layout_width="match_parent"
